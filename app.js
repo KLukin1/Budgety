@@ -73,7 +73,7 @@ var budgetController = (function() {
             return newItem;
         },
         
-        deleteItem: function(type, id) {             //kaj se tu sve izdogadjalo?
+        deleteItem: function(type, id) {
             var ids, index; 
             
             ids = data.allItems[type].map(function(current) {
@@ -132,8 +132,6 @@ var budgetController = (function() {
             console.log(data);
         }
     };
-
-    
 })();
 
 
